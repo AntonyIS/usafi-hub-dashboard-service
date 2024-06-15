@@ -1,9 +1,10 @@
-import Button from "./ui/Buttom";
+import Button from "../ui/Buttom";
 import Link from 'next/link'
 
 export default function Navbar (){
+    const buttonName = "Book your home clean"
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary shadow bg-body-tertiary rounded">
             <div className="container">
                 <button 
                     className="navbar-toggler" 
@@ -53,7 +54,7 @@ export default function Navbar (){
                             aria-current="page" 
                             href="#"
                             >
-                            <Button name={"Book Now"}/>
+                            <Button name={buttonName}/>
                         </Link>
                     </li>
                 </ul>

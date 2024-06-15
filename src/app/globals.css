@@ -1,0 +1,32 @@
+.sectionL1 {
+    padding: 30px;
+    min-height: 50vh;
+}
+
+.sectionL2 {
+    padding: 30px;
+    min-height: 10vh;
+}
+
+.BorderLess {
+    border: none
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
+
+.no-bullets li {
+    margin-bottom: 10px; 
+}
+
+
+.hero-image {
+    width: 100%; /* Scale the image to the width of its container */
+    max-width: 300px; /* Optional: Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
